@@ -1,0 +1,10 @@
+sno=10
+sname='keerthy'
+group='mscs'
+s1=40
+s2=30
+s3=50
+if s1>=35 & s2>=35 & s3>=35:
+    print('pass')
+else:
+    print('fail')
