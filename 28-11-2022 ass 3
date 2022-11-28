@@ -1,0 +1,6 @@
+a=70
+if 100>a:
+    print('less than 100')
+else:
+    print('greater than 100')
+    
