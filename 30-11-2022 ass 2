@@ -1,0 +1,13 @@
+c=int(input('Enter category:'))
+sc=input('Enter Sub Category:')
+uc=3 
+omr=int(input('Enter Old meter reading:'))
+pmr=int(input('Enter Present meter reading:'))
+units=omr-pmr
+bill=units*uc
+extra=110 
+print('No. of units:',units)
+print('Bill without charges:',bill)
+print('Extra charges:',extra)
+bill=bill+extra
+print('Total Bill:',bill)
