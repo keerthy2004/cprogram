@@ -1,0 +1,30 @@
+redgram=30
+blackgram=50
+sugar=20
+salt=30
+chilli=25
+cphno=int(input('enter customer phone number:'))
+cname=input('enter customer name:')
+cadd=input('enter address:')
+rq=int(input('quantity of redgram:'))
+bq=int(input('quatity of blackgram:'))
+suq=int(input('quantity of sugar:'))
+sq=int(input('quantity of salt:'))
+cq=int(input('quantity of chilli:'))
+bill=(redgram*rq)+(blackgram*bq)+(sugar*sq)+(salt*sq)+(chilli*cq)
+if bill>3000:
+    tax=bill*5/100
+elif bill>2000:
+    tax=bill*7/100
+elif bill>1000:
+    tax=bill*10/100
+elif bill>500:
+    tax=bill*15/100
+else:
+    tax=100
+total=bill+tax
+print('Customer Number:',cphnno)
+print('Customer Name:',cname)
+print("Customer Address:",cadd)
+print('Tax:',tax)
+print('Bill:',total)
