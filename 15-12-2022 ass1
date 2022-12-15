@@ -1,0 +1,12 @@
+n=int(input())
+fl=list(map(int,input().split()))
+pl=[]
+nl=[]
+for i in range(n):
+    if fl[i]>0:
+        pl.append(fl[i])
+    else:
+        nl.append(fl[i])
+l=pl+nl
+for i in l:
+    print(i,end=' ')
