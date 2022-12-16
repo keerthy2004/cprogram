@@ -1,0 +1,7 @@
+s=input('enter string')
+n=len(s)
+c=0
+for i in range(n):
+    if(s[i].isalpha()):
+        c=c+1
+print('No. of char in string=',c)
