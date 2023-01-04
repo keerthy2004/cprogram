@@ -1,0 +1,22 @@
+n=int(input())
+a=[]
+z=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    a.append(l)
+for i in range(0,n):
+    for j in range(0,n):
+        if i==j:
+            print(a[i][j])
+        
+for i in range(0,n):
+    for j in range(0,n):
+        if i+j==n-1:
+            print(a[i][j])
+for i in range(0,n):
+    for j in range(0,n):
+        z.append(a[i][j])
+print(max(z))
