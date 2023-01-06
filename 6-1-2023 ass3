@@ -1,0 +1,11 @@
+email=input()
+phno=input()    
+f=int(phno[0])
+c=0
+for i in phno:
+    if i.isdigit():
+        c=c+1
+if (email.endswith("@gmail.com") or email.endswith("yahoo.com") or email.endswith("adc.aditya.ac.in")) and c==10 and f>5:
+    print("Registration Successful")
+else:
+    print("Check your details")
