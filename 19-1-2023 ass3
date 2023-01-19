@@ -1,0 +1,9 @@
+s=input()
+res=''
+n=int(input())
+k=len(s)
+for i in range(0,k):
+   for j in range(0,n):
+        res=res+s[i]
+print(res)
+    
